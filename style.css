@@ -1,0 +1,150 @@
+
+body{
+   margin: 0px;
+   font-family: Lucida Sans Unicode;
+   background-image: url('/images/body.jpg');
+   background-position: bottom;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   backdrop-filter: blur(7px)
+   
+}
+
+/* НАВИГАЦИЯ */
+a{
+   color:white;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.604);
+}
+.nav {
+   box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+   backdrop-filter: 0;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.604);
+   color:white;
+   display: grid;
+   height: 100px;
+   grid-template-columns: 1fr 1.2fr 1fr;
+}
+.nav-mhom{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+
+.nav-icon {
+   width: 100px;
+   border-radius: 50px;
+   align-self: center;
+   justify-self: end;
+}
+.nav-contacts{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   align-self: center;
+}
+
+.nav-element{
+   transition: 0.2s;
+}
+.nav-element:hover {
+   color: rgb(191, 172, 147);
+   transition: 0.3s;
+   font-size: 18px;
+}
+.nav-element:hover a {
+   color: rgb(191, 172, 147);
+   transition: 0.3s;
+   font-size: 18px;
+}
+.nav-contacts__number {
+   font-weight: bold;
+}
+.nav-contacts__instagram {
+ padding-left: 15px;
+}
+.nav-contacts__vk {
+}
+.nav-menu {
+   align-self: center;
+   justify-self: center;
+}
+
+/* ТИТЛ  и СЛАЙДЕР*/
+.container {
+   width: 90%;
+   margin: 0px auto;
+
+}
+.title{
+   
+   height: 500px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.title-slider{
+   align-self: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.slider{
+   border-radius: 10px;
+   width: 256px;
+   height: 256px;
+   border: 2px solid black;
+   margin: auto;
+   overflow: hidden;
+}
+.slider-line{
+   position: relative;
+   height: 256px;
+   width: 1024px;
+   display: flex;
+   left: 0;
+   transition: all ease 1s;
+}
+.slider-btn{
+   height: 50px;
+   align-self: center;
+}
+.title-text{
+   border-radius: 10px;
+   box-shadow: inset 0 0 0 3000px rgba(150, 150, 150, 0.192);
+   margin-left: 40px;
+   color: aliceblue;
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.604);
+   display: grid;
+   align-self: center;
+   grid-template-rows: 1fr 1fr 1fr;
+}
+.title-text-h{
+  
+   justify-self: start;
+   align-self: start;
+}
+.title-text-p{
+   
+   text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+   font-size: 18px;
+}
+.title-text-btn{
+   
+   width: 100px;
+   align-self: end;
+   margin: 10px;
+   border: 2px solid rgb(255, 255, 255);
+   align-self: center;
+   height: 30px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 36px;
+  color: #ffffff;
+  border-radius: 40px;
+  background-color: #b7ee2096;
+  cursor: pointer;
+  user-select: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+  
+}
